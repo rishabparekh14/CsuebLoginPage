@@ -4,7 +4,7 @@ body {
 }
 
 .csuebImg {
-  background-image: url(rp3.jpg);
+  background-image: url(backgroundImage_working.jpg);
   background-size: cover;
 }
 .csuebImg:after {
@@ -14,7 +14,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: -1;
   background-color: rgb(128, 0, 0, 0.5);
 }
 
@@ -54,7 +54,7 @@ button {
 .right1 {
   z-index: 100;
   position: absolute;
-  margin-top: 420px;
+  margin-top: 10px;
   margin-left: 440px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -63,11 +63,16 @@ button {
 .right2 {
   z-index: 100;
   position: absolute;
-  margin-top: 440px;
+  margin-top: 25px;
   margin-left: 440px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-size: 12px;
+}
+.csuebLoginDevice {
+  z-index: 100;
+  margin-top: 200px;
+  margin-left: 480px;
 }
 
 .csuebLogo {
